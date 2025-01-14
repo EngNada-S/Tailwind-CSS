@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .gradient{
+        background: linear-gradient(to right, white 80%,#ECF2E6 80%);
+    }
+    .btn{
+        @apply bg-main-color text-white py-2 px-6 rounded-md uppercase hover:text-main-color hover:bg-white transition duration-300 border-main-color border-2 
+    }
+    .backg{
+        @apply bg-[url('../assets/discount-background.png')] lg:bg-none bg-contain bg-no-repeat bg-[-100px_0] bg-background-color
+    }
+    .link{
+        @apply text-textcolor font-bold uppercase py-2 px-4 block hover:bg-[#688f4e96] transition duration-200 hover:text-white
+    }
+}
+
+
