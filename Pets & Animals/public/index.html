@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets & Animals</title>
+    <link rel="shortcut icon" href="assets/img.png" type="image/x-icon">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="font-Ubuntu">
+    <header class="w-full h-16 fixed top-0 left-0 bg-white shadow-sm z-10">
+        <div class="container h-full flex justify-between items-center">
+            <ul class="hidden sm:flex gap-8">
+                <li><a class="capitalize text-lg text-first-color" href="index.html">home</a></li>
+                <li><a class="capitalize text-lg hover:text-second-color" href="pages/about.html">about</a></li>
+                <li><a class="capitalize text-lg hover:text-second-color" href="pages/contact.html">contact</a></li>
+            </ul>
+            <div class="block sm:hidden" id="bars">
+                <i class="fa-solid fa-bars text-2xl text-first-color cursor-pointer"></i>
+            </div>
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-phone text-first-color text-2xl"></i>
+                <span class="text-xl tracking-wider"> +1 (234) 567-8910</span>
+            </div>
+        </div>
+    </header>
+    <!-- small screen menu -->
+    <div class="w-1/2 h-screen bg-black text-white hidden fixed top-0 left-0 z-20 sm:hidden" id="menu">
+        <div class="w-full text-right p-5" >
+            <i class="fa-solid fa-x text-2xl cursor-pointer" id="close"></i>
+        </div>
+        <ul class="text-center">
+            <li class="p-3"><a class="capitalize text-lg hover:text-first-color font-semibold" href="index.html">home</a></li>
+            <li class="p-3"><a class="capitalize text-lg hover:text-first-color font-semibold" href="pages/about.html">about</a></li>
+            <li class="p-3"><a class="capitalize text-lg hover:text-first-color font-semibold" href="pages/contact.html">contact</a></li>
+        </ul>
+    </div>
+    <div class="mt-[64px] py-20">
+        <div class="container grid grid-cols-1 md:grid-cols-2 items-center gap-20">
+            <div class="text-center md:text-start">
+                <img class="w-20 mb-3 mx-auto md:mx-0" src="../public/assets/img.png" alt="">
+                <h1 class="font-[500] text-3xl md:text-5xl lg:text-7xl mb-6">For All of Your Best Friend's Needs</h1>
+                <div class="flex gap-6 flex-col md:flex-row">
+                    <button class="min-w-fit w-[40%] md:w-fit mx-auto md:mx-0 py-3 px-6 capitalize bg-first-color hover:bg-[#7223e4] text-white">about us</button>
+                    <button class="min-w-fit w-[40%] md:w-fit mx-auto md:mx-0 py-3 px-6 capitalize bg-second-color hover:bg-[#fabb1e] text-black">contact us</button>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <img class="rounded-full w-[60%] md:w-full" src="../public/assets/landing.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="pb-20">
+        <div class="container">
+            <h2 class="text-3xl md:text-6xl text-center md:text-start leading-4 font-bold mb-10">Choose a Category</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-[repeat(auto-fill,minmax(250px,1fr))] lg:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4">
+                <div class="flex flex-col gap-4">
+                    <div class="h-full sm:h-[320px] p-6 bg-[#f2f2f2] text-center content-center">
+                        <h3 class="text-3xl font-medium">Play</h3>
+                        <p class="text-xl my-4">Sample text. Click to select the Text Element.</p>
+                        <i class="fa-solid fa-arrow-right self-center text-xl text-white p-3 bg-first-color rounded-full hover:animate-spin"></i>
+                    </div>
+                    <div class="h-full sm:h-[320px]">
+                        <img class="w-full h-full" src="./assets/category1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-col-reverse gap-4">
+                    <div class="h-full sm:h-[320px] p-6 bg-[#f2f2f2] text-center content-center">
+                        <h3 class="text-3xl font-medium">Sleep</h3>
+                        <p class="text-xl my-4">Sample text. Click to select the Text Element.</p>
+                        <i class="fa-solid fa-arrow-right self-center text-xl text-white p-3 bg-first-color rounded-full hover:animate-spin"></i>
+                    </div>
+                    <div class="h-full sm:h-[320px]">
+                        <img class="w-full h-full" src="./assets/category2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="h-full sm:h-[320px] p-6 bg-[#f2f2f2] text-center content-center">
+                        <h3 class="text-3xl font-medium">Walk</h3>
+                        <p class="text-xl my-4">Sample text. Click to select the Text Element.</p>
+                        <i class="fa-solid fa-arrow-right self-center text-xl text-white p-3 bg-first-color rounded-full hover:animate-spin"></i>
+                    </div>
+                    <div class="h-full sm:h-[320px]">
+                        <img class="w-full h-full" src="./assets/category3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-20 bg-second-color">
+        <div class="container text-center">
+            <p class="text-4xl tracking-wide capitalize">offline</p>
+            <h2 class="font-bold text-5xl my-5">End of Season Sale</h2>
+            <button class="p-4 bg-first-color text-white">our shop</button>
+        </div>
+    </div>
+    <div class="py-20">
+        <div class="container grid grid-cols-1 sm:grid-cols-2 gap-12 items-center">
+            <div >
+                <img class="w-full rounded-full" src="./assets/cat.jpeg" alt="">
+            </div>
+            <div class="text-center sm:text-start">
+                <p class="text-3xl py-6">Save 20%</p>
+                <h2 class="font-bold text-2xl sm:text-5xl">End of Season Sale!</h2>
+                <p class="text-xl my-4">Save on all items. Ends soon, so shop now.</p>
+                <div class="flex gap-6 flex-col md:flex-row">
+                    <button class="min-w-fit w-[40%] md:w-fit mx-auto md:mx-0 py-3 px-6 capitalize bg-first-color hover:bg-[#7223e4] text-white">about us</button>
+                    <button class="min-w-fit w-[40%] md:w-fit mx-auto md:mx-0 py-3 px-6 capitalize bg-second-color hover:bg-[#fabb1e] text-black">contact us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-20 bg-[#fff9eb]">
+        <div class="container text-center">
+            <h2 class="font-bold text-5xl">Why Pets Owners Loves Us</h2>
+            <div class="mt-16 flex flex-wrap ">
+                <div class="flex flex-col items-center gap-7 w-full md:w-1/4 sm:w-1/2 text-center">
+                    <img class="w-16" src="./assets/img1.png" alt="">
+                    <h3 class="font-bold text-xl">Quality</h3>
+                </div>
+                <div class="flex flex-col items-center gap-7 w-full md:w-1/4 sm:w-1/2 text-center">
+                    <img class="w-16" src="./assets/img2.png" alt="">
+                    <h3 class="font-bold text-xl">Fair pricing</h3>
+                </div>
+                <div class="flex flex-col items-center gap-7 w-full md:w-1/4 sm:w-1/2 text-center">
+                    <img  class="w-16"src="./assets/img3.png" alt="">
+                    <h3 class="font-bold text-xl">Transparency</h3>
+                </div>
+                <div class="flex flex-col items-center gap-7 w-full md:w-1/4 sm:w-1/2 text-center">
+                    <img class="w-16" src="./assets/img4.png" alt="">
+                    <h3 class="font-bold text-xl">Transparency</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-20">
+        <div class="container text-center">
+            <i class="fa-brands fa-instagram p-4 rounded-full bg-first-color text-white text-3xl"></i>
+            <h2 class="font-bold text-3xl sm:text-5xl py-8">Follow us on Instagram</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 h-fit">
+                <div><img class="w-full h-full" src="./assets/1.jpg" alt=""></div>
+                <div><img class="w-full h-full" src="./assets/2.jpeg"alt=""></div>
+                <div><img class="w-full h-full" src="./assets/3.jpg" alt=""></div>
+                <div><img class="w-full h-full" src="./assets/4.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="py-20 bg-first-color text-white">
+        <div class="container text-center">
+            <h2 class="font-bold text-3xl sm:text-5xl">Subscribe to Our Newsletter</h2>
+            <form action="" class="w-full sm:w-3/4 mx-auto mt-10">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
+                    <div>
+                        <label class="block text-start text-xl mb-2" for="email">Email</label>
+                        <input class="placeholder:text-gray-200 bg-transparent border-b-2 border-white text-white p-2 w-full" id="email" type="email" name="email" placeholder="Enter a valid email address">
+                    </div>
+                    <div>
+                        <label class="block text-start text-xl mb-2" for="name">Name</label>
+                        <input class="placeholder:text-gray-200 bg-transparent border-b-2 border-white text-white p-2 w-full" id="name" type="text" name="name" placeholder="Enter your name">
+                    </div>
+                </div>
+                <input type="submit" value="Submit" class="py-3 px-7 mt-10 text-lg text-black  bg-second-color hover:bg-[#fabb1e]">
+            </form>
+        </div>
+    </div>
+    <footer class="py-4 text-center text-white text-lg bg-[#333333] ">
+        <div class="container">
+            This site was created with the Nicepage
+        </div>
+    </footer>
+    <div id="scrollToTop" class="fixed bottom-5 right-5 hidden cursor-pointer animate-bounce">
+        <i class="fa-solid fa-caret-up text-2xl h-10 w-10 rounded-full text-white text-center content-center bg-second-color"></i>
+    </div>
+    <script src="../src/js/main.js"></script>
+</body>
+</html>

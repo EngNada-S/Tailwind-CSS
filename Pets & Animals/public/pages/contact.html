@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="shortcut icon" href="../assets/img.png" type="image/x-icon">
+    <link href="../../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="font-Ubuntu m-0 p-0">
+    <header class="w-full h-16 fixed top-0 left-0 bg-white shadow-sm z-10">
+        <div class="container h-full flex justify-between items-center">
+            <ul class="hidden sm:flex gap-8">
+                <li><a class="capitalize text-lg hover:text-second-color" href="../index.html">home</a></li>
+                <li><a class="capitalize text-lg hover:text-second-color" href="about.html">about</a></li>
+                <li><a class="capitalize text-lg text-first-color" href="contact.html">contact</a></li>
+            </ul>
+            <div class="block sm:hidden" id="bars">
+                <i class="fa-solid fa-bars text-2xl text-first-color cursor-pointer"></i>
+            </div>
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-phone text-first-color text-2xl"></i>
+                <span class="text-xl tracking-wider"> +1 (234) 567-8910</span>
+            </div>
+        </div>
+    </header>
+    <!-- small screen menu -->
+    <div class="w-1/2 h-screen bg-black text-white hidden fixed top-0 left-0 z-20 sm:hidden" id="menu">
+        <div class="w-full text-right p-5" >
+            <i class="fa-solid fa-x text-2xl cursor-pointer" id="close"></i>
+        </div>
+        <ul class="text-center">
+            <li class="p-3"><a class="capitalize text-lg hover:text-first-color font-semibold" href="../index.html">home</a></li>
+            <li class="p-3"><a class="capitalize text-lg hover:text-first-color font-semibold" href="about.html">about</a></li>
+            <li class="p-3"><a class="capitalize text-lg hover:text-first-color font-semibold" href="contact.html">contact</a></li>
+        </ul>
+    </div>
+    <div class="mt-[64px] py-20 bg-second-color">
+        <div class="container">
+            <h2 class="text-center font-bold text-3xl sm:text-5xl">Contact Us</h2>
+            <form action="" class="w-full sm:w-2/3 mx-auto mt-10">
+                <div>
+                    <label class="block" for="name">Name</label>
+                    <input class="placeholder:text-gray-600/50 w-full p-2 border-b-2 border-black bg-transparent" id="name" type="text" name="name" placeholder="Enter Your Name">
+                </div>
+                <div class="mt-7">
+                    <label class="block" for="email">Email</label>
+                    <input class="placeholder:text-gray-600/50 w-full p-2 border-b-2 border-black bg-transparent" id="email" type="email" name="email" placeholder="Enter a valid Email">
+                </div>
+                <div class="mt-7">
+                    <label class="block" for="msg">Message</label>
+                    <textarea id="msg" name="msg" placeholder="Enter your message" class="w-full h-36 p-2 placeholder:text-gray-600/50 border-b-2 border-black bg-transparent "></textarea>
+                </div>
+                <input type="submit" value="Submit" class="pb-3 px-7 bg-first-color hover:bg-[#7223e4] text-white mt-7 block mx-auto">
+            </form>
+        </div>
+    </div>
+    <div class="py-20">
+        <div class="container text-center">
+            <h2 class="font-bold text-3xl sm:text-5xl">How to reach us</h2>
+            <div class="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4 mt-16">
+                <div class="text-center">
+                    <i class="fa-solid fa-house text-white text-2xl p-3 rounded-full bg-first-color"></i>
+                    <h3 class="font-bold text-xl my-5">Address</h3>
+                    <p class="text-lg leading-7">
+                        Street Name, Zip Code, Country<br>
+                        mail@mailservice.com<br>
+                        (555) 555-5555
+                    </p>
+                </div>
+                <div class="text-center">
+                    <i class="fa-regular fa-clock text-white text-2xl p-3 rounded-full bg-first-color"></i>
+                    <h3 class="font-bold text-xl my-5">Opening Hours</h3>
+                    <p class="text-lg leading-7">
+                        9:00 - 17:00
+                    </p>
+                </div>
+                <div class="text-center">
+                    <i class="fa-regular fa-heart text-white text-2xl p-3 rounded-full bg-first-color"></i>
+                    <h3 class="font-bold text-xl my-5">Social</h3>
+                    <p class="text-lg leading-7">
+                        Sample text. Click to select the Text Element.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-20">
+        <div class="container text-center">
+            <i class="fa-brands fa-instagram p-4 rounded-full bg-first-color text-white text-3xl"></i>
+            <h2 class="font-bold text-3xl sm:text-5xl py-8">Follow us on Instagram</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 h-fit">
+                <div><img class="w-full h-full" src="../assets/1.jpg" alt=""></div>
+                <div><img class="w-full h-full" src="../assets/2.jpeg"alt=""></div>
+                <div><img class="w-full h-full" src="../assets/3.jpg" alt=""></div>
+                <div><img class="w-full h-full" src="../assets/4.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="py-20 bg-first-color text-white">
+        <div class="container text-center">
+            <h2 class="font-bold text-3xl sm:text-5xl">Subscribe to Our Newsletter</h2>
+            <form action="" class="w-full sm:w-3/4 mx-auto mt-10">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
+                    <div>
+                        <label class="block text-start text-xl mb-2" for="email">Email</label>
+                        <input class="bg-transparent border-b-2 border-white text-white p-2 w-full" id="email" type="email" name="email" placeholder="Enter a valid email address">
+                    </div>
+                    <div>
+                        <label class="block text-start text-xl mb-2" for="name">Name</label>
+                        <input class="bg-transparent border-b-2 border-white text-white p-2 w-full" id="name" type="text" name="name" placeholder="Enter your name">
+                    </div>
+                </div>
+                <input type="submit" value="Submit" class="py-3 px-7 mt-10 text-lg text-black  bg-second-color hover:bg-[#fabb1e]">
+            </form>
+        </div>
+    </div>
+    <footer class="py-4 text-center text-white text-lg bg-[#333333] ">
+        <div class="container">
+            This site was created with the Nicepage
+        </div>
+    </footer>
+    <div id="scrollToTop" class="fixed bottom-5 right-5 hidden cursor-pointer animate-bounce">
+        <i class="fa-solid fa-caret-up text-2xl h-10 w-10 rounded-full text-white text-center content-center bg-second-color"></i>
+    </div>
+    <script src="../../src/js/main.js"></script>
+</body>
+</html>
