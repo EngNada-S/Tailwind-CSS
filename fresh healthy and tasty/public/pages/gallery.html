@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body class="before:fixed font-openSans">
+    <header class="w-full h-16 bg-white shadow-md flex items-center justify-center fixed top-0 left-0 z-10">
+        <i class="fa-solid fa-bars text-3xl cursor-pointer hover:text-mainColor" id="showMenu"></i>
+    </header>
+    <!-- menu -->
+    <nav class="w-1/2 md:w-1/4 lg:w-1/6 h-screen bg-black text-white p-4 fixed left-0 top-0 z-30 hidden" id="menu">
+        <div class="text-end mb-5">
+            <i class="fa-solid fa-x text-2xl cursor-pointer" id="closeMenu"></i>
+        </div>
+        <ul class="text-center">
+            <li class="p-2 text-xl fonr-semibold hover:bg-hoverColor"><a href="../index.html">Home</a></li>
+            <li class="p-2 text-xl fonr-semibold hover:bg-hoverColor"><a href="./about.html">About</a></li>
+            <li class="p-2 text-xl fonr-semibold hover:bg-hoverColor"><a href="./gallery.html">Gallery</a></li>
+            <li class="p-2 text-xl fonr-semibold hover:bg-hoverColor"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div
+        class="pt-10 pb-28 mt-[64px] text-center bg-[url(../../public/assets/gallery1.jpg)] bg-cover bg-center relative before before:absolute z-0">
+        <div class="container relative z-30">
+            <h1 class="text-[80px] md:text-[150px] lg:text-[200px] text-white font-arizonia font-bold leading-[12rem]">
+                <p>Bowls</p>
+                <p>Menu</p>
+            </h1>
+        </div>
+    </div>
+    <div class="bg-bgColor pb-14">
+        <div class="container">
+            <div class="w-full md:w-[80%] mx-auto py-10 px-2 bg-white text-center -mt-24 relative">
+                <img class="w-[200px] h-[200px] mx-auto mb-8 rounded-full scale-0 trans"
+                    src="../assets/dish.png" alt="">
+                <h2 class="h2">bowls</h2>
+                <div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">Salmon $15</h3>
+                        <p class="text-lg">Fresh salmon, rice or noodles, pickled cucumber, spring onions, edamame.</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">Tuna $18</h3>
+                        <p class="text-lg">Fresh tuna, rice or noodles, pickled cucumber, spring onions, edamame.</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">Shrimp $16</h3>
+                        <p class="text-lg">Tiger shrimp, rice or noodles, pickled cucumber, spring onions, edamame.</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">Mixed Fish $18</h3>
+                        <p class="text-lg">Tuna and salmon, rice or noodles, pickled cucumber, spring onions, edamame
+                        </p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">Tofu $14</h3>
+                        <p class="text-lg">Seasoned tofu, rice or noodles, pickled cucumber, spring onions, edamame.</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">Add-ons $5</h3>
+                        <p class="text-lg">Double portion of tuna, salmon or tofu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <img src="../assets/gallery/img1.jpg" alt="">
+        <img src="../assets/gallery/contact1.jpeg" alt="">
+        <img src="../assets/gallery/gallery1.jpg" alt="">
+        <img src="../assets/gallery/dish.png" alt="">
+        <img src="../assets/gallery/img2.jpg" alt="">
+        <img src="../assets/gallery/contact2.jpg" alt="">
+    </div>
+    <div class="py-20">
+        <div class="container">
+            <div class="w-full md:w-[80%] mx-auto py-10 px-2 bg-bgColor text-center">
+                <img class="w-[200px] h-[200px] mx-auto mb-8 rounded-full scale-0 trans"
+                    src="../assets/drink.jpeg" alt="">
+                <h2 class="h2">drinks</h2>
+                <div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">Jasmine Bubble Tea $4</h3>
+                        <p class="text-lg">Sweet, fun and flavorful with a delicate hint of Jasmine tea.</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">Pink Bubble Tea $4</h3>
+                        <p class="text-lg">Refreshingly light, flavored with rose petals and natural peppermint.</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">OLÉ Ice Tea $4</h3>
+                        <p class="text-lg">Garden-fresh mint tea with fresh lemon, sweetened and served over ice.</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">Ginger beer $4</h3>
+                        <p class="text-lg">Refreshing and cool with just the right combination of spicy and sweet.</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">Soda water $4</h3>
+                        <p class="text-lg">Bubbly, cool and refreshing.</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-xl mb-2">OLÉ beer $6</h3>
+                        <p class="text-lg">A local brewery makes it especially for us. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-14">
+        <div class="container">
+            <h2 class="h2 text-center">contacts</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 mt-12 gap-4">
+                <div>
+                    <img class="w-full sm:w-7/12 rounded-full mx-auto mb-4 scale-0 trans"
+                        src="../assets/contact2.jpg" alt="">
+                    <p class="text-lg mb-4">Use our contact form for all information requests or contact us directly
+                        using the contact information below.</p>
+                    <p class="text-lg">Feel free to get in touch with us via email or phone</p>
+                </div>
+                <div>
+                    <h3 class="uppercase font-bold text-xl font-merriweather">Sign up for the newsletter</h3>
+                    <p class="text-xl my-6">Want to be the first to read our news? Subscribe to the newsletter to keep
+                        abreast of all events.</p>
+                    <div class="flex flex-wrap gap-y-4">
+                        <input class="w-full sm:flex-1 p-2 border-none outline-none bg-[#F2F2F2]" type="email"
+                            name="email" placeholder="Enter avalid email address">
+                        <input type="submit" value="submit"
+                            class="w-full sm:w-fit uppercase text-white text-xl py-2 px-4 bg-mainColor hover hover:bg-hoverColor">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-[#333333] py-4 text-white text-center text-lg">
+        <div class="container">
+            This site was created with the Nicepage
+        </div>
+    </footer>
+    <div class="w-10 h-10 bg-mainColor text-center content-center rounded-full fixed bottom-5 right-5 cursor-pointer animate-bounce hidden"
+        id="scrollToTop">
+        <i class="fa-solid fa-caret-up text-2xl text-white"></i>
+    </div>
+    <script src="../../src/js/main.js"></script>
+</body>
+
+</html>

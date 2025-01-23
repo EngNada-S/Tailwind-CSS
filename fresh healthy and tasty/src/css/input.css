@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.before::before {
+    content: '';
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+.h2{
+    @apply font-merriweather uppercase sm:text-5xl text-3xl font-semibold mb-3;
+}
+.trans{
+    @apply  transition-all duration-1000 ease-in-out;
+}

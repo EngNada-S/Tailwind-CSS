@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body class="before:fixed font-openSans">
+    <header class="w-full h-16 bg-white shadow-md flex items-center justify-center fixed top-0 left-0 z-10">
+        <i class="fa-solid fa-bars text-3xl cursor-pointer hover:text-mainColor" id="showMenu"></i>
+    </header>
+    <!-- menu -->
+    <nav class="w-1/2 md:w-1/4 lg:w-1/6 h-screen bg-black text-white p-4 fixed left-0 top-0 z-30 hidden" id="menu">
+        <div class="text-end mb-5">
+            <i class="fa-solid fa-x text-2xl cursor-pointer" id="closeMenu"></i>
+        </div>
+        <ul class="text-center">
+            <li class="p-2 text-xl fonr-semibold hover:bg-hoverColor"><a href="../index.html">Home</a></li>
+            <li class="p-2 text-xl fonr-semibold hover:bg-hoverColor"><a href="./about.html">About</a></li>
+            <li class="p-2 text-xl fonr-semibold hover:bg-hoverColor"><a href="./gallery.html">Gallery</a></li>
+            <li class="p-2 text-xl fonr-semibold hover:bg-hoverColor"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div
+        class="py-20 mt-[64px] text-center bg-[url(../../public/assets/contact1.jpeg)] bg-cover bg-center relative before before:absolute z-0">
+        <div class="container relative z-30">
+            <h1 class="text-[80px] md:text-[150px] lg:text-[200px] text-white font-arizonia font-bold">Contact Us</h1>
+        </div>
+    </div>
+    <div class="py-14 text-center">
+        <div class="container">
+            <h2 class="h2">Have any questions</h2>
+            <p class="text-lg w-full sm:w-[70%] mx-auto">Want to know about any of our ingredients or suppliers? Or
+                maybe you just want to say Aloha? Send us a message below and we'll get right back to you.</p>
+            <form action="" class="w-full sm:w-[70%] mx-auto flex flex-wrap justify-center gap-4 mt-10">
+                <div class="w-full sm:flex-1">
+                    <label class="block text-start mb-3">Email</label>
+                    <input class="w-full bg-[#F2F2F2] p-2 outline-none" type="email" name="email"
+                        placeholder="Enter a valid email address">
+                </div>
+                <div class="w-full sm:flex-1">
+                    <label class="block text-start mb-3">Name</label>
+                    <input class="w-full bg-[#F2F2F2] p-2 outline-none" type="text" name="name"
+                        placeholder="Enter Your Name">
+                </div>
+                <div class="w-full">
+                    <label class="block text-start mb-3">Message</label>
+                    <textarea class="w-full h-40 bg-[#F2F2F2] p-2 outline-none" name="msg" class=""
+                        placeholder="Enter Your Message"></textarea>
+                </div>
+                <input type="submit" value="submit"
+                    class="uppercase text-white text-xl py-2 px-4 bg-mainColor hover hover:bg-hoverColor">
+            </form>
+        </div>
+    </div>
+    <div class="py-14 bg-bgColor text-center">
+        <div class="container">
+            <h2 class="h2">we are open</h2>
+            <p class="text-lg mb-2">We bring you the flavor of the ocean, but are located in the heart of downtown.</p>
+            <div class="flex flex-col gap-3 text-xl font-merriweather">
+                <h3 class="font-bold font-openSans">Delivery within 25 km in any direction.</h3>
+                <p>Mon - Wed 9:00 am - 5:00 pm</p>
+                <p>Thu - Fri 9:00 am - 8:30 pm</p>
+                <p>Saturday 9:00 am - 10:00 pm</p>
+                <p>Sunday Closed</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="py-14">
+        <div class="container">
+            <h2 class="h2 text-center ">contacts</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 mt-12 gap-4">
+                <div>
+                    <img class="w-full sm:w-1/2 rounded-full mx-auto mb-4 scale-0  trans"
+                        src="../assets/contact2.jpg" alt="">
+                    <p class="text-lg mb-4">Use our contact form for all information requests or contact us directly
+                        using the contact information below.</p>
+                    <p class="text-lg">Feel free to get in touch with us via email or phone</p>
+                </div>
+                <div>
+                    <h3 class="uppercase font-bold text-xl font-merriweather">Sign up for the newsletter</h3>
+                    <p class="text-xl my-6">Want to be the first to read our news? Subscribe to the newsletter to keep
+                        abreast of all events.</p>
+                    <div class="flex flex-wrap gap-y-4">
+                        <input class="w-full sm:flex-1 p-2 border-none outline-none bg-[#F2F2F2]" type="email"
+                            name="email" placeholder="Enter avalid email address">
+                        <input type="submit" value="submit"
+                            class="w-full sm:w-fit uppercase text-white text-xl py-2 px-4 bg-mainColor hover hover:bg-hoverColor">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-[#333333] py-4 text-white text-center text-lg">
+        <div class="container">
+            This site was created with the Nicepage
+        </div>
+    </footer>
+    <div class="w-10 h-10 bg-mainColor text-center content-center rounded-full fixed bottom-5 right-5 cursor-pointer animate-bounce hidden"
+        id="scrollToTop">
+        <i class="fa-solid fa-caret-up text-2xl text-white"></i>
+    </div>
+    <script src="../../src/js/main.js"></script>
+</body>
+
+</html>
