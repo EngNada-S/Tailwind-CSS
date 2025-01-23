@@ -12,3 +12,7 @@ Tailwind CSS powered Layouts
   <summary>Pets & Animals</summary>
   <img src="https://github.com/EngNada-S/Tailwind-CSS/blob/main/Pets%20&%20Animals/public/assets/design/home.png?raw=true" alt=" " style="max-width: 100%; height: auto;">
 </details>
+<details>
+  <summary>fresh healthy and tasty</summary>
+  <img src="https://github.com/EngNada-S/Tailwind-CSS/blob/main/fresh%20healthy%20and%20tasty/public/assets/design/home.png?raw=true" alt=" " style="max-width: 100%; height: auto;">
+</details>
